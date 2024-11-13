@@ -104,3 +104,5 @@ Alias: $JDV-J244-StatutMetierAnomalie-ROR = https://mos.esante.gouv.fr/NOS/JDV_J
 Alias: $JDV-J247-Pays-ROR = https://mos.esante.gouv.fr/NOS/JDV_J247-Pays-ROR/FHIR/JDV-J247-Pays-ROR
 Alias: $JDV-J248-DepartementOM-ROR = https://mos.esante.gouv.fr/NOS/JDV_J248-DepartementOM-ROR/FHIR/JDV-J248-DepartementOM-ROR
 Alias: $JDV-J249-TerritoireSante-ROR = https://mos.esante.gouv.fr/NOS/JDV_J249-TerritoireSante-ROR/FHIR/JDV-J249-TerritoireSante-ROR
+
+Alias: $testscript-operation-codes = http://terminology.hl7.org/CodeSystem/testscript-operation-codes
