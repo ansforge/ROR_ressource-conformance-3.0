@@ -1,5 +1,5 @@
 Profile: RORPractitioner
-Parent: Practitioner
+Parent: as-practitioner
 Id: ror-practitioner
 Description: "Profil créée dans le cadre du ROR pour décrire les données d'identification pérennes d’une personne physique, qui travaille en tant que professionnel"
 
@@ -19,9 +19,12 @@ Description: "Profil créée dans le cadre du ROR pour décrire les données d'i
 * name.prefix 0..1 MS
 * name.prefix from $JDV-J207-Civilite-ROR (extensible)
 * name.prefix ^short = "Civilite (PersonnePhysique) : Civilite de la personne physique"
-* identifier 1..1 MS
+/** identifier 1..1 MS
 * identifier ^short = "idNat_PS (Professionnel) : Identification nationale du professionnel définie par le CI-SIS"
-* identifier.system = "urn:oid:1.2.250.1.71.4.2.1" //voir issue https://github.com/ansforge/IG-fhir-repertoire-offre-ressources-sante/issues/100
+* identifier.system = "urn:oid:1.2.250.1.71.4.2.1" //voir issue https://github.com/ansforge/IG-fhir-repertoire-offre-ressources-sante/issues/100*/
+* identifier[idNatPs] 1..1 MS // à voir si besoin fonctionnel de mettre 0..0 sur les autres slices héritées RPPS et ADELI ou de les autoriser dans le cadre du ROR
+* identifier[rpps] 0..0
+* identifier[adeli] 0..0
 
 * telecom MS
 * telecom ^short = "boiteLettreMSS (Professionnel) : Boîte(s) aux lettres du service de messagerie sécurisée de santé (MSS) rattachée(s) au professionnel"
@@ -38,7 +41,7 @@ Description: "Profil créée dans le cadre du ROR pour décrire les données d'i
 * telecom.extension[ror-telecom-usage] ^short = "utilisation (Telecommunication) : Utilisation du canal de communication"
 * telecom.extension[ror-telecom-confidentiality-level] ^short = "niveauConfidentialite (Telecommunication) : niveau de restriction de l'accès aux attributs de la classe Télécommunication"
 
-* qualification.issuer only Reference(fr-organization or ROROrganization)
+* qualification.issuer only Reference(as-organization or ROROrganization)
 
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

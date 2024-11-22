@@ -21,8 +21,8 @@ Description: "Profil créé dans le cadre du ROR pour décrire les modalités d'
 /* Données fonctionnelles */
 * identifier 0..1 MS
 * identifier ^short = "identifiantSituationOperationnelle (SituationOperationnelle) : Identifiant de la situation opérationnelle, unique et persistant au niveau national"
-* practitioner only Reference(Practitioner or RORPractitioner)
-* organization only Reference(fr-organization or ROROrganization)
+* practitioner only Reference(as-practitioner or RORPractitioner)
+* organization only Reference(as-organization or ROROrganization)
 * code 1..1 MS
 
 * code ^short = "profession (ExerciceProfessionnel) : Profession exercée ou future profession de l'étudiant"
@@ -98,8 +98,8 @@ Description: "Profil créé dans le cadre du ROR pour décrire les modalités d'
 * specialty[specificCompetence] ^short = "competenceSpecifique (SituationOperationnelle) : Capacité ou connaissance reconnue qui permet ou facilite l’accueil d’une personne"
 * specialty[specificCompetence] from $JDV-J33-CompetenceSpecifique-ROR (required)
 
-* location only Reference(Location or RORLocation)
-* healthcareService only Reference(HealthcareService or RORHealthcareService)
+* location only Reference(fr-core-location or RORLocation)
+* healthcareService only Reference(fr-core-healthcare-service or RORHealthcareService)
 
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

@@ -1,5 +1,5 @@
 Profile: RORHealthcareService
-Parent: HealthcareService
+Parent: fr-core-healthcare-service
 Id: ror-healthcareservice
 Description: "Profil créé dans le cadre du ROR pour décrire les prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
 
@@ -20,7 +20,7 @@ Description: "Profil créé dans le cadre du ROR pour décrire les prestations q
 * name ^short = "nomOffre (OffreOpérationnelle) : Dénomination sous laquelle l'offre est identifiée par le porteur d'offre"
 * name MS
 * providedBy MS
-* providedBy only Reference(fr-organization or ROROrganization)
+* providedBy only Reference(as-organization or ROROrganization)
 * location MS
 * category 0..1 MS
 * category ^short = "typeOffre (OffreOperationnelle) : Permet de distinguer les offres et de les classer en fonction de leur nature particulière"
@@ -29,7 +29,7 @@ Description: "Profil créé dans le cadre du ROR pour décrire les prestations q
 * type ^short = "champActivite (OffreOperationnelle) : Domaine dans lequel s'inscrit l'offre"
 * type from $JDV-J20-ChampActivite-ROR (required)
 * comment ^short = "commentaire (Metadonnee) : Commentaire qui peut être associé à chaque objet"
-* location only Reference(Location or RORLocation)
+* location only Reference(fr-core-location or RORLocation)
 
 * availableTime MS
 * availableTime ^short = "horaire (OffreOperationnelle) : heureDebut + heureFin"
@@ -64,7 +64,7 @@ Description: "Profil créé dans le cadre du ROR pour décrire les prestations q
 * telecom.extension[ror-telecom-usage] ^short = "utilisation (Telecommunication) : Utilisation du canal de communication"
 * telecom.extension[ror-telecom-confidentiality-level] ^short = "niveauConfidentialite (Telecommunication) : Niveau de restriction de l'accès aux attributs de la classe Télécommunication"
 
-* coverageArea only Reference(Location or RORLocation)
+* coverageArea only Reference(fr-core-location or RORLocation)
 * characteristic 1..* MS
 
 * characteristic.extension ^slicing.discriminator.type = #value

@@ -1,9 +1,9 @@
 //Extensions
-Alias: $practitionerRole-name = https://apifhir.annuaire.sante.fr/ws-sync/exposed/structuredefinition/practitionerRole-name
+//Alias: $practitionerRole-name = https://apifhir.annuaire.sante.fr/ws-sync/exposed/structuredefinition/practitionerRole-name
 Alias: $FrHumanName = http://www.interopsante.org/fhir/structuredefinition/datatype/fr-human-name
-Alias: $practitionerRole-contracted = https://apifhir.annuaire.sante.fr/ws-sync/exposed/structuredefinition/practitionerRole-contracted
-Alias: $practitionerRole-vitaleAccepted = https://apifhir.annuaire.sante.fr/ws-sync/exposed/structuredefinition/practitionerRole-vitaleAccepted
-Alias: $practitionerRole-hasCAS = https://apifhir.annuaire.sante.fr/ws-sync/exposed/structuredefinition/practitionerRole-hasCAS
+Alias: $practitionerRole-contracted = https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-contracted
+Alias: $practitionerRole-vitaleAccepted = https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-vitale-accepted
+Alias: $practitionerRole-hasCAS = https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-practitionerrole-hascas
 Alias: $geolocation = http://hl7.org/fhir/StructureDefinition/geolocation
 
 //TRE / Codesystem 

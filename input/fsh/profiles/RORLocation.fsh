@@ -1,5 +1,5 @@
 Profile: RORLocation
-Parent: Location
+Parent: fr-core-location
 Id: ror-location
 Description: "Profil créé dans le cadre du ROR pour décrire l'espace disposant d'un ensemble de ressources pour réaliser une offre." 
 
@@ -23,13 +23,13 @@ Description: "Profil créé dans le cadre du ROR pour décrire l'espace disposan
 * type ^short = "fonctionLieu (LieuRealisationOffre) : La fonction correspond à la destination d'usage du lieu"
 * type from $JDV-J198-FonctionLieu-ROR (required)
 * managingOrganization MS
-* managingOrganization only Reference(fr-organization or ROROrganization)
+* managingOrganization only Reference(as-organization or ROROrganization)
 * operationalStatus MS
 * operationalStatus ^short = "statut (LieuRealisationOffre) : Indique si le lieu est opérationnel, fermé temporairement ou fermé définitivement"
 * operationalStatus from $JDV-J224-StatutLieu-ROR (required)
 
 * partOf MS
-* partOf only Reference(Location or RORLocation)
+* partOf only Reference(fr-core-location or RORLocation)
 
 * identifier MS
 * identifier ^slicing.discriminator.type = #value
@@ -100,6 +100,10 @@ Description: "Profil créé dans le cadre du ROR pour décrire l'espace disposan
 * position.extension ^slicing.rules = #open
 * position.extension contains RORCoordinateReliability named ror-coordinate-reliability 0..1 MS
 * position.extension[ror-coordinate-reliability] ^short = "coordonneesFiables (CoordonneeGeographique) : Permet de signaler si les informations des coordonnées géographiques sont issues d'un mode de production qui assure un certain niveau de fiabilité"
+
+* managingOrganization only Reference(as-organization or ROROrganization)
+* partOf only Reference(fr-core-location or RORLocation)
+
 
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"

@@ -7,7 +7,7 @@ Description: "Anomalie concerant une donnée dans une ressource du ROR"
 /* Données fonctionnelles */
 * identifier 0..1 MS
 * identifier ^short = "Identifiant de l'anomalie"
-* partOf only Reference(Task or RORTask)
+* partOf only Reference(RORTask)
 * status MS //Status required doit correspondre au valueset exigé par FHIR dans TaskStatus https://www.hl7.org/FHIR/valueset-task-status.html
 * businessStatus 1..1 MS
 * businessStatus ^short = "Statut métier de traitement de l'anomalie"
@@ -23,15 +23,15 @@ Description: "Anomalie concerant une donnée dans une ressource du ROR"
 * authoredOn ^short = "Date création de l'anomalie"
 * lastModified 1..1 MS
 * lastModified ^short = "Date de dernière modification"
-* requester only Reference(ROROrganization or RORPractitioner or RORPractitionerRole)
+* requester only Reference(ROROrganization or RORPractitioner or RORPractitionerRole or as-organization or as-practitioner)
 * requester MS
 * reasonCode 1..1 MS
 * reasonCode ^short = "Type d'action proposée en réponse"
 * reasonCode from $JDV-J242-ActionAnomalie-ROR
-* owner only Reference(ROROrganization or RORPractitioner or RORPractitionerRole or RORHealthcareService)
+* owner only Reference(ROROrganization or RORPractitioner or RORPractitionerRole or RORHealthcareService or as-organization or fr-core-healthcare-service or as-practitioner)
 * owner MS
-* location only Reference(Location or RORLocation)
-* restriction.recipient only Reference(ROROrganization or RORPractitioner or RORPractitionerRole)
+* location only Reference(RORLocation or fr-core-location)
+* restriction.recipient only Reference(ROROrganization or RORPractitioner or RORPractitionerRole or as-organization or as-practitioner)
 * input MS
 
 * input ^short = "Eléments en entrée pour définir l'anomalie"
