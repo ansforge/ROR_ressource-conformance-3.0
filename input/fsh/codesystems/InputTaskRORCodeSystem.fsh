@@ -1,6 +1,8 @@
 CodeSystem: InputTaskRORCodeSystem
 Id: input-task-ror-codesystem
 Description: "Code System pour la définition des éléments spécifiques de input dans ressource RORTask"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^experimental = true
 * ^caseSensitive = true 
 * ^compositional = false
 * ^content = #complete

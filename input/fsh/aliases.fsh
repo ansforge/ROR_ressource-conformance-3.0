@@ -26,6 +26,7 @@ Alias: $TRE-R287-NatureContact = https://mos.esante.gouv.fr/NOS/TRE_R287-NatureC
 Alias: $TRE-R288-TypeProfession = https://mos.esante.gouv.fr/NOS/TRE_R288-TypeProfession/FHIR/TRE-R288-TypeProfession
 Alias: $TRE-R338-ModaliteAccueil = https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil
 Alias: $restful-security-service = http://terminology.hl7.org/CodeSystem/restful-security-service
+Alias: $TRE_R227-ChampActivite = https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite
 
 //JDV /Value Set
 Alias: $JDV-J124-Commune = https://mos.esante.gouv.fr/NOS/JDV_J124-Commune/FHIR/JDV-J124-Commune // Solution temporaire en attendant de pouvoir utlisier le JDV IS fr-insee-code (package fr-core)
