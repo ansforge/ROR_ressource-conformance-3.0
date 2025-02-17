@@ -62,7 +62,7 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left;mso-yfti-cnfc:64'><span
-  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet d'inclure des ressources référencées par la ressource recherchée dans le résultat<o:p></o:p></span></p>
+  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet d'inclure des ressources référencées par la ressource recherchée dans le résultat (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
@@ -89,7 +89,7 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet d'inclure les ressources qui font référence à la ressource recherchée dans le résultat<o:p></o:p></span></p>
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet d'inclure les ressources qui font référence à la ressource recherchée dans le résultat (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
@@ -114,7 +114,7 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de choisir le nombre de résultat par page<o:p></o:p></span></p>
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de choisir le nombre de résultat par page (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   <p class=MsoNormal align=left style='text-align:left'><b><u><span
   style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%;color:#4472C4;
   mso-themecolor:accent5'>RG_RECH_52&nbsp;:</span></u></b><span
@@ -148,7 +148,7 @@
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left;mso-yfti-cnfc:64'><span
   style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de choisir
-  dans quel ordre renvoyer les résultats<o:p></o:p></span></p>
+  dans quel ordre renvoyer les résultats (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
@@ -175,7 +175,7 @@
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
   9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet au consommateur de
-  demander les éléments à retourner de la ressource recherchée<o:p></o:p></span></p>
+  demander les éléments à retourner de la ressource recherchée (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
@@ -224,7 +224,7 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de faire des recherches hiérarchiques<o:p></o:p></span></p>
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de faire des recherches hiérarchiques (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
@@ -251,11 +251,9 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de rendre le processus d'inclusion itératif<o:p></o:p></span></p>
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de rendre le processus d'inclusion itératif (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
-
- 
  <tr style='mso-yfti-irow:9'>
   <td width="13%" style='width:13.86%;border-top:none;border-left:solid #8EAADB 1.0pt;
   border-bottom:solid #8EAADB 1.0pt;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
@@ -278,7 +276,32 @@
   mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de filter sur le type d'identifiant<o:p></o:p></span></p>
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet de filter sur le type d'identifiant (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
+  </td>
+ </tr>
+  <tr style='mso-yfti-irow:9'>
+  <td width="13%" style='width:13.86%;border-top:none;border-left:solid #8EAADB 1.0pt;
+  border-bottom:solid #8EAADB 1.0pt;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-left-alt:solid #8EAADB .5pt;
+  mso-border-bottom-alt:solid #8EAADB .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left;mso-yfti-cnfc:4'><b><span
+  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'><span
+  class=SpellE>:not</span><o:p></o:p></span></b></p>
+  </td>
+  <td width="38%" colspan=2 style='width:38.92%;border:none;border-bottom:solid #8EAADB 1.0pt;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-bottom-alt:solid #8EAADB .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><a href="https://www.hl7.org/fhir/R4/search.html"><span
+  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>https://www.hl7.org/fhir/R4/search.html</span></a><span
+  style='font-size:9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'> <o:p></o:p></span></p>
+  </td>
+  <td width="47%" style='width:47.22%;border-top:none;border-left:none;
+  border-bottom:solid #8EAADB 1.0pt;border-right:solid #8EAADB 1.0pt;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-bottom-alt:solid #8EAADB .5pt;mso-border-right-alt:solid #8EAADB .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
+  9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet aux clients de filtrer si les ressources ne contiennent pas un élément spécifié en fonction de l'entrée du paramètre de recherche (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
   <tr style='mso-yfti-irow:10'>
@@ -327,7 +350,7 @@
   padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
   9.0pt;mso-bidi-font-size:10.0pt;line-height:115%'>Permet d’effectuer des
-  recherches comparatives<o:p></o:p></span></p>
+  recherches comparatives (voir la documentation FHIR pour plus de précision)<o:p></o:p></span></p>
   </td>
  </tr>
 
