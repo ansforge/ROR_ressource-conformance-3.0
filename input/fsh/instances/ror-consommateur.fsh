@@ -360,12 +360,12 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Organization-name"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "Permet la recherche sur le nom de l'organisation interne"
-/*
+
 * rest.resource[=].searchParam[+].name = "type"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Organization-type"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].documentation = "Permet la recherche sur le cadre réglementaire dans lequel s'exerce l'activité de l'entité géographique"
-*/
+
 * rest.resource[=].searchParam[+].name = "closing-type"
 * rest.resource[=].searchParam[=].definition = Canonical(ror-sp-organization-closing-type)
 * rest.resource[=].searchParam[=].type = #token
